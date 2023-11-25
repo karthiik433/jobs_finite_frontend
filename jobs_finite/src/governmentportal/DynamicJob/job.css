@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+#job-main-outside{
+    background-color: gray;
+}
+#jobpage-main{
+    max-width: 950px;
+    /* height: 100vh; */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    background: white;
+    padding-bottom: 20px;
+}
+#job-content{
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    /* height: 100%; */
+    /* padding: 30px; */
+    display: grid;
+    gap: 5px;
+}
+.inner-job-content{
+    padding: 20px;
+    /* padding-top: 30px; */
+}
+/* #job-content  div {
+    padding: 10px;
+} */
+hr.solid {
+    border-top: 1px solid black;
+    /* display: block; */
+    width: 100%;
+    /* overflow: visible; */
+  }
+.side-heading{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 30px;
+    color: green;
+}
+.remove-padding table{
+    width: 100%;
+    table-layout: auto;
+    text-align: center;
+}
+.remove-padding table td{
+    padding: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    #job-content{
+        margin-left: 0;
+        margin-right: 0;
+        /* padding: 15px; */
+    }
+    .inner-job-content{
+        padding: 10px;
+        padding-top: 15px;
+    }
+    .inner-job-content > ul{
+        list-style: circle;
+    }
+    .inner-job-content > .remove-padding{
+        padding-left: 0px;
+        margin-left: 0;
+    }
+    .side-heading{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+#onlyjob-main-outside{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: gray;
+}
+#onlyjobpage-main{
+    max-width: 950px;
+    /* height: 100vh; */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    background: white;
+    padding-bottom: 20px;
+}
+.job-content{
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    /* height: 100%; */
+    /* padding: 30px; */
+    display: grid;
+    gap: 5px;
+}
+.inner-job-content{
+    padding: 10px;
+    padding-left: 20px;
+    /* padding-top: 30px; */
+}
+hr.solid {
+    border-top: 1px solid black;
+    /* display: block; */
+    width: 100%;
+    /* overflow: visible; */
+  }
+.side-heading{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 30px;
+    color: green;
+}
+.remove-padding table{
+    width: 100%;
+    table-layout: auto;
+    text-align: center;
+}
+.remove-padding table td{
+    padding: 10px;
+}
+@media screen and (max-width: 450px) {
+    #onlyjobpage-main{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

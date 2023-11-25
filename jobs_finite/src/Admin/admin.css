@@ -1,0 +1,36 @@
+.header-admin{
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.file-upload{
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.btn-upload{
+	text-align: center;
+	margin-top: 50px;
+}
+.select-upload{
+	text-align: center;
+	margin-top: 50px;
+}
+.btn-upload > button{
+  padding: 5px 5px;
+  /*line-height: 1.25;*/
+  background: #FC6E51;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color .6s ease;
+  overflow: hidden;
+}
+.btn-upload > button:hover{
+	cursor: pointer;
+	opacity: 70%;
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "examName": "SBI",
+        "examDate": "23/09/2022",
+        "recruitmentBoard": "Central Govt",
+        "postName": "UPSC",
+        "qualification": "B.Tech",
+        "advtNumber": "10",
+        "lastDate": "20/11/2022",
+        "url": "https://google.com"
+    },
+    {
+        "id": 2,
+        "examName": "SBI",
+        "examDate": "23/09/2022",
+        "recruitmentBoard": "Central Govt",
+        "postName": "SBI",
+        "qualification": "B.Tech",
+        "advtNumber": "10",
+        "lastDate": "20/11/2022",
+        "url": "https://google.com"
+    },
+    {
+        "id": 3,
+        "examName": "SBI",
+        "examDate": "29/09/2022",
+        "recruitmentBoard": "Central Govt",
+        "postName": "SBI",
+        "qualification": "B.Tech",
+        "advtNumber": "10",
+        "lastDate": "20/11/2022",
+        "url": "https://google.com"
+    }
+]

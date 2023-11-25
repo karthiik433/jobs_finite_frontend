@@ -1,0 +1,104 @@
+
+
+.zoom {
+    width: 350px;
+    height: 400px;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    cursor: pointer;
+    /* border-radius: 30px; */
+}
+   
+.zoom img {
+    width: 100%;
+    height: 95%;
+    object-fit: scale-down;
+
+    transition: 0.5s all ease-in-out;
+}
+.hovering-effect{
+    padding-bottom: 20px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 5px gray;
+}
+   
+.hovering-effect:hover  {
+    transform: scale(1.04);
+    transition: 0.45s all ease-in-out;
+    box-shadow: 6px 6px 40px 10px gray;
+}
+#homepage-main-outside{
+    background-color: gray;
+    margin-bottom: 50px;
+}
+#homepage-main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+}
+#homepage-main .zoom{
+    position: relative;
+    text-align: center;
+}
+#homepage-main .zoom .job-category{
+    z-index: 2;
+    position: absolute;
+    font-size: 20px;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#marquee-footer{
+    box-sizing: border-box;
+}
+#marquee-footer .column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+#marquee-footer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 450px) {
+    #homepage-main-outside{
+        background-color: white;
+        margin-bottom: 40px;
+    }
+    #homepage-main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #homepage-main .zoom {
+        width: 200px;
+        height: 200px;
+    }
+    #homepage-main .hovering-effect{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    #homepage-main .hovering-effect .job-category{
+        font-size: medium;
+    }
+    #homepage-main .hovering-effect .job-category-govt{
+        font-size: small;
+    }
+    .zoom img {
+        width: 100%;
+        height: 89%;
+        object-fit: scale-down;
+        transition: 0.5s all ease-in-out;
+    }
+
+}

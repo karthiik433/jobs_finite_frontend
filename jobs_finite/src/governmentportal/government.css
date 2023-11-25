@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+#govtpage-main-outside{
+    background-color: gray;
+}
+#govtpage-main{
+    max-width: 950px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    background: white;
+    padding-bottom: 20px;
+}
+#govtpage-main table{
+    table-layout: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+}
+#govtpage-main .table{
+    text-align: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+table, th, td {
+    border: 1.5px solid #000;
+    border-collapse: collapse;
+}
+#govtpage-main .state{
+    font-size: 14px;
+    font-weight: bold;
+    color: royalblue;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+#govtpage-main table th{
+    background-color: lightgray;
+    color: brown;
+    font-weight: 600;
+}
+@media screen and (max-width: 450px) {
+    #govtpage-main{
+        font-size: small;
+    }
+    #govtpage-main{
+        width: 100%;
+        /* padding-left: 5px; */
+        padding-left: 4%;
+        padding-right: 4%;
+        margin: auto 0;
+    }
+    #govtpage-main table{
+        /* margin: auto; */
+        /* margin-right: 30px; */
+    }
+    #govtpage-main .gap-below{
+        padding-top: 20px;
+    }
+}
